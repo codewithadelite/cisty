@@ -1,0 +1,99 @@
+	body{
+		font-family: 'Montserrat', sans-serif;
+		overflow-x: hidden;
+		background-color: white;
+	}
+	body::-webkit-scrollbar {
+	  width: 0.5em;
+	}
+	 
+	body::-webkit-scrollbar-track {
+	  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	}
+	nav{
+		background-color: #ffc727 !important;
+	}
+	body::-webkit-scrollbar-thumb {
+	  background-color: #343a40;
+	  outline: 1px solid slategrey;
+	}
+	.content-1{
+		background-color: #ffc727; 
+		width: 100%;
+	}
+	.content-1 h3{
+		font-weight: 800;
+		font-size: 40px;
+	}
+	.content-1 button{
+		background-color: #37474f;
+		font-weight: bold;
+		border-color: #37474f;
+	}
+	.content-2{
+		width: 100%;
+		height:400px;
+	}
+	.content-2 h3{
+		font-weight: bold;
+	}
+	.content-2 h4{
+		font-weight: bold;
+	}
+	.content-2 .icon{
+		font-weight: bold;
+		font-size:40px;
+		color: #ffc727;
+	}
+	.content-2 .card{
+		box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+		border-bottom: 4px solid #ffc727;
+	}
+	.cont-search{
+		background-color: #ffe9a5;
+		width: 100%;
+		height: 400px;
+	}
+	.cont-search .search-container{
+		background-color: #fff;
+		width: 100%;
+		height: 60px;
+	}
+	.cont-search .search-input{
+		width: 90%;
+		height: 60px;
+		float: left;
+	}
+	.cont-search .search-input input{
+		width: 100%;
+		height: 60px;
+		border-radius: 0px;
+		border:0px;
+		background-color: white;
+	}
+	.cont-search .search-input input:focus{
+		border-radius: 0px;
+		border:0px;
+		border-bottom:0px;
+		box-shadow: inset 0 0px 0 #ddd;
+	}
+	.cont-search .search-icon{
+		cursor: pointer;
+		width: 10%;
+		height: 60px;
+		float: right;
+
+	}
+	.cont-search .search-icon:hover{
+		color: #ffc727;
+
+	}
+	.cont-search .search-icon i{
+		font-size: 27px;
+
+	}
+
+
+	
+
+	
